@@ -4,10 +4,12 @@
     margin: 0;
 }
 
+/* Background color of the page*/
 body {
     background-color: #d9dcd6;
 }
 
+/* header detail: backgrond color, font size, font color and size */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,14 +17,19 @@ body {
     color: #ffffff;
 }
 
+/* size and positon of Horiseon */
+
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* set different color for part of the the word Horiseon - "seo" */
 .header h1 .seo {
     color: #d9dcd6;
 }
+
+
 
 .header div {
     padding-top: 15px;
@@ -36,20 +43,25 @@ body {
     list-style-type: none;
 }
 
+/* Make the header list apear horizontal with margin*/
+
 .header div ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* set the color of the header list white  */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* sets all paragraphs size to 16 */
 p {
     font-size: 16px;
 }
 
+/* disply the first(meeting) image as a background following this spec*/
 .hero {
     height: 800px;
     width: 100%;
@@ -59,21 +71,26 @@ p {
     background-position: center;
 }
 
+/* disply the images for Search Engine Optimization and social Media Marketing section to the left */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* disply the image for Online Reputation Management section to the right */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* apply these to all three contents : Search Engine Optimization. social Media Marketing and Online Reputation Management */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
+
+/* specs of how the right side of the page should display, lighter background collor different types of font etc...*/
 
 .benefits {
     margin-right: 20px;
@@ -86,54 +103,68 @@ p {
     background-color: #2589bd;
 }
 
+
+/* Color and the margin at the bottom of the Lead Generation section */
+
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
 }
+
+/* Color and the margin at the bottom of the Brand Awarness section */
 
 .benefit-brand {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* Color and the margin at the bottom of the Cost Managment section */
+
 .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* Display Lead Generation header center with some margin */
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* Display Brand Awarness header center with some margin */
 .benefit-brand h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* Display Cost Managment header center with some margin */
 .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* Display image for Lead Generation as specified below */
 .benefit-lead img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* Display image for Brand Awarness as specified below */
 .benefit-brand img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* Display image for Cost Managment as specified below */
 .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* Detail of how the Search Engin Optimizaiton section should display */
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -143,6 +174,7 @@ p {
     color: #ffffff;
 }
 
+/* Detail of how the Online Reputation Managemnt section should display */
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
@@ -152,6 +184,7 @@ p {
     color: #ffffff;
 }
 
+/* Detail of how the Social Media Marketing section should display */
 .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -161,6 +194,7 @@ p {
     color: #ffffff;
 }
 
+/* Setssize of all three images */
 .search-engine-optimization img {
     max-height: 200px;
 }
@@ -173,6 +207,7 @@ p {
     max-height: 200px;
 }
 
+/* Sets the size of all three headers and thier margin */
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
@@ -188,6 +223,7 @@ p {
     font-size: 36px;
 }
 
+/* Specs for the footer*/
 .footer {
     padding: 30px;
     clear: both;
@@ -195,6 +231,7 @@ p {
     text-align: center;
 }
 
+/* size of "Made with ❤️️ by Horiseon<"*/
 .footer h2 {
     font-size: 20px;
 }
