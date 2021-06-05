@@ -17,8 +17,7 @@ body {
     color: #ffffff;
 }
 
-/* size and positon of Horiseon */
-
+/* size and positon of the text "Horiseon" */
 .header h1 {
     display: inline-block;
     font-size: 48px;
@@ -29,8 +28,7 @@ body {
     color: #d9dcd6;
 }
 
-
-
+/* Header links specifications*/
 .header div {
     padding-top: 15px;
     margin-right: 20px;
@@ -44,7 +42,6 @@ body {
 }
 
 /* Make the header list apear horizontal with margin*/
-
 .header div ul li {
     display: inline-block;
     margin-left: 25px;
@@ -91,7 +88,6 @@ p {
 }
 
 /* specs of how the right side of the page should display, lighter background collor different types of font etc...*/
-
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -105,21 +101,18 @@ p {
 
 
 /* Color and the margin at the bottom of the Lead Generation section */
-
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
 /* Color and the margin at the bottom of the Brand Awarness section */
-
 .benefit-brand {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
 /* Color and the margin at the bottom of the Cost Managment section */
-
 .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
