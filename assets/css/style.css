@@ -37,17 +37,14 @@ body {
     font-size: 20px;
 }
 
-.header section ul {
-    list-style-type: none;
-}
-
 /* Make the header list apear horizontal with margin*/
 .header section ul li {
     display: inline-block;
     margin-left: 25px;
+    list-style-type: none;
 }
 
-/* set the color of the header list white  */
+/* set the color of the header link white  */
 a {
     color: #ffffff;
     text-decoration: none;
@@ -58,7 +55,7 @@ p {
     font-size: 16px;
 }
 
-/* disply the first(meeting) image as a background following this spec*/
+/* disply the first(meeting) image as a background*/
 .hero {
     height: 800px;
     width: 100%;
@@ -101,64 +98,26 @@ p {
 
 
 /* Color and the margin at the bottom of the Lead Generation section */
-.benefit-lead {
+.benefit-lead, .benefit-brand, .benefit-cost{
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-/* Color and the margin at the bottom of the Brand Awarness section */
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-/* Color and the margin at the bottom of the Cost Managment section */
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-/* Display Lead Generation header center with some margin */
-.benefit-lead h3 {
+/* Display Lead Generation, Brand Awarness  and Cost Managment header at the center with margin*/
+.benefits h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-/* Display Brand Awarness header center with some margin */
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-/* Display Cost Managment header center with some margin */
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-/* Display image for Lead Generation as specified below */
-.benefit-lead img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-/* Display image for Brand Awarness as specified below */
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-/* Display image for Cost Managment as specified below */
-.benefit-cost img {
+/* Display image for Lead Generation, Brand Awarness and Cost managemtn as specified below */
+.benefit-lead img, .benefit-brand img, .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
 /* Detail of how the Search Engin Optimizaiton section should display */
-.search-engine-optimization {
+.search-engine-optimization, .online-reputation-management, .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -167,43 +126,13 @@ p {
     color: #ffffff;
 }
 
-/* Detail of how the Online Reputation Managemnt section should display */
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-/* Detail of how the Social Media Marketing section should display */
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-/* Setssize of all three images */
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
+/* Set the size of all three images */
+.content img {
     max-height: 200px;
 }
 
 /* Sets the size of all three headers and thier margin */
-.search-engine-optimization h2 
-.online-reputation-management h2 
-.social-media-marketing h2 
+.content h2
 {
     margin-bottom: 20px;
     font-size: 36px;
