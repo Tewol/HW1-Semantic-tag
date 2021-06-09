@@ -1,16 +1,18 @@
 # hw1-semantic-tag
-* This is a single page informative website about marketing. it's called Horiseon.
 
-## Acceptance Criteria
-* Viewing the source code with semantic HTML elements
+* This is a single page informative website about Horiseon Marketing Agency.
 
-* Viewing the structure of the HTML elements THEN find that the elements follow a logical structure independent of styling and positioning
 
-* Viewing the image elements THEN find accessible alt attributes
+## Functionality/Design  
 
-* Viewing the heading attributes THEN they fall in sequential order
+* Name of the website is Horiseon 
 
-* Viewing the title element THEN find a concise, descriptive title
+* Header links will take you to a section where it describes each content.
+
+* Each section displays a brief summary of the content along with descriptive images 
+
+* There are more section to the right side of the page 
+
 
 
 ## Mock-Up
@@ -20,6 +22,7 @@ The following image shows Horiseon Marketing Agency's web application  appearanc
 ![Horiseon Marketing Agency's web application "screenshot #1".](./assets/images/pic1.png)
 ![Horiseon Marketing Agency's web application "screenshot #2".](./assets/images/pic2.png)
 ![Horiseon Marketing Agency's web application "screenshot #3".](./assets/images/pic3.png)
+
 
 
 ## Links to the deployed application
