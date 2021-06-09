@@ -12,6 +12,20 @@
 
 * Viewing the title element THEN find a concise, descriptive title
 
-[Website Address](https://tewol.github.io/hw1-semantic-tag/)
+
+## Mock-Up
+
+The following image shows Horiseon Marketing Agency's web application  appearance and functionality: 
+
+![Horiseon Marketing Agency's web application "screenshot #1".](./assets/images/pic1.png)
+![Horiseon Marketing Agency's web application "screenshot #2".](./assets/images/pic2.png)
+![Horiseon Marketing Agency's web application "screenshot #3".](./assets/images/pic3.png)
+
+
+## Links to the deployed application
+
+* URL of the deployed application: (https://tewol.github.io/hw1-semantic-tag/)
+
+* URL of the GitHub repository: https://github.com/Tewol/hw1-semantic-tag
 
 © 2021 Hewan Redie
